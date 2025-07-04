@@ -1,0 +1,170 @@
+<!-- Full updated HTML with paragraph, love list, animation, background music and stars -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krishan ❤️ Meenal - Our Love Story</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap');
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(to right, #fff0f6, #ffe0ec);
+      color: #333;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      position: relative;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #ffe4ec;
+      color: #c9184a;
+      font-family: 'Pacifico', cursive;
+      font-size: 2.8rem;
+      animation: fadeInDown 1.5s ease-out;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      animation: fadeIn 2s ease;
+    }
+    .paragraph p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+    ul { padding-left: 1.2rem; }
+    li { margin-bottom: 0.5rem; }
+    .surprise {
+      text-align: center;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #ffeef4;
+      border-radius: 15px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+      display: none;
+      animation: fadeIn 2s ease-in-out;
+    }
+    .show-surprise {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .show-surprise button {
+      padding: 1rem 2rem;
+      background-color: #ff6fa1;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-family: 'Pacifico', cursive;
+      font-size: 1.2rem;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+    }
+    .show-surprise button:hover {
+      background-color: #e05487;
+      transform: scale(1.05);
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .stars {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      background: transparent url('https://media.giphy.com/media/l0Exk8EUzSLsrErEQ/giphy.gif') repeat;
+      background-size: cover;
+      opacity: 0.08;
+      animation: twinkle 20s infinite linear;
+    }
+    @keyframes twinkle {
+      0% { background-position: 0 0; }
+      100% { background-position: 100% 100%; }
+    }
+  </style>
+  <script>
+    function revealSurprise() {
+      document.getElementById("surpriseBox").style.display = "block";
+      window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+    }
+  </script>
+</head>
+<body>
+  <div class="stars"></div>
+  <audio autoplay loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-romantic.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <header>Krishan ❤️ Meenal — Our Love Story</header>
+
+  <section class="paragraph">
+    <p>It's been 9 months with you, and honestly, I still can't believe how lucky I got. Life was pretty normal before you came in — same boring days, same coding stress — but since the day we started talking, everything feels different. You're the first person I actually feel safe with, like I can be myself around you without pretending.</p>
+    <p>I don’t say it often, but I notice the little things — how you smile when you're trying not to, how your voice softens when you're worried about me, how you get mad at the smallest things but cool down in 2 seconds (and then act like nothing happened 😆). Every single moment with you, even the silly fights, feels like a part of some movie I’d actually want to live in.</p>
+    <p>You’ve become my peace in the chaos. Even when I’m stressed with college, or feeling low, just one message from you changes everything. You make even the most random conversations feel special — whether we're talking about food, your dreams, your insecurities, or just teasing each other till one of us gives up.</p>
+    <p>There’s something about you… maybe the way you care too much, or how you get excited about small things, or how you remember everything I say — even the dumb stuff. You make me feel seen, heard, and loved in a way I’ve never felt before. And I swear, I’ve never laughed or smiled this much with anyone.</p>
+    <p>I know I’m not perfect — I mess up, forget things, act distant sometimes, and probably annoy you way too much. But even in those moments, you stay. And that means more to me than anything else.</p>
+    <p>9 months in, and I still get excited seeing your name pop up on my phone. Still feel the same butterflies when I think about how we started. You’ve become my favorite person without even trying.</p>
+    <p>So this is for you — for all the times you were there when no one else was, for all the care you gave without asking anything in return, for loving me when I couldn’t even love myself properly.</p>
+    <p>I don't know what the future holds, but if I had one wish — it would be to keep you with me through it all. Through every exam, every late-night coding session, every achievement, every breakdown. Just… together.</p>
+  </section>
+
+  <section class="reasons">
+    <h3>Things I Love About You ❤️</h3>
+    <ul>
+      <li>I love the way you smile — it just makes everything around me feel lighter.</li>
+      <li>I love how you care for me, even when you're angry or upset.</li>
+      <li>I swear your cute little anger is one of my favorite things ever.</li>
+      <li>The way you say my name? I can never get tired of hearing it.</li>
+      <li>I love your voice — especially when we’re on late-night calls.</li>
+      <li>Your morning texts? They literally make my day.</li>
+      <li>I love how you get so excited over the tiniest things — it’s adorable.</li>
+      <li>I love how you always believe in me, even when I don't believe in myself.</li>
+      <li>I love how you always ask me how my day was — it shows how much you care.</li>
+      <li>I love how soft your hands are — I could hold them forever.</li>
+      <li>I love how you motivate me without even realizing it.</li>
+      <li>Your little weird habits — I don’t even know how, but I find them cute as hell.</li>
+      <li>I love how you actually listen to me, not just hear me — you get me.</li>
+      <li>I love how honest you are with me — even when it’s hard.</li>
+      <li>I love how you love me, flaws and all.</li>
+      <li>I love how you tease me like a best friend and love me like a soulmate.</li>
+      <li>I love that no matter how busy things get, you always find time for me.</li>
+      <li>I love how your eyes light up when you're truly happy — it’s beautiful.</li>
+      <li>I love how you remember the smallest things I say, even if I forget.</li>
+      <li>I love how protective you are about us.</li>
+      <li>I love your passion — the way you talk about your dreams inspires me.</li>
+      <li>I love how goofy you can be — it makes me laugh even when I’m not okay.</li>
+      <li>I love the way you look at me like I actually matter.</li>
+      <li>I love your random “I love you” texts — they hit deep every time.</li>
+      <li>I love how obsessed you are with my hoodies — and how cute you look in them.</li>
+      <li>I love that even when I mess up, you find it in your heart to forgive me.</li>
+      <li>I love the way your voice sounds when you say “I miss you” — I can feel it.</li>
+      <li>I love your confidence and how you carry yourself.</li>
+      <li>I love your softness — the kind that makes me want to protect you forever.</li>
+      <li>I love that out of everyone in this world… you chose me.</li>
+    </ul>
+  </section>
+
+  <div class="show-surprise">
+    <button onclick="revealSurprise()">Click to open your surprise 💖</button>
+  </div>
+
+  <div class="surprise" id="surpriseBox">
+    <h2>Forever isn't long enough with you, Meenal 💕</h2>
+    <p>Every little word here is a small piece of my heart. Thank you for choosing me, standing by me, and making me believe in love every day.</p>
+    <p>I can't promise perfection, but I promise you this — I'll always be yours. In every way. Through everything. Happy 9 months, baby 💗</p>
+  </div>
+
+</body>
+</html>
